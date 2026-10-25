@@ -1,0 +1,15 @@
+{
+  "owner_name": "Maria",
+  "location": {"lat": -22.9068, "lon": -43.1729},
+  "timezone": "America/Sao_Paulo",
+  "tickers": [
+    ["^BVSP", "Ibovespa"],
+    ["PETR4.SA", "PETR4"],
+    ["VALE3.SA", "VALE3"]
+  ],
+  "news_topics": [
+    ["ia", "IA e tecnologia", "inteligência artificial OR OpenAI OR Anthropic OR Claude OR Gemini"],
+    ["mercado", "Mercado", "Ibovespa OR PETR4 OR VALE3"]
+  ],
+  "forwarded_domain": ""
+}

@@ -1,0 +1,9 @@
+faster-whisper==1.2.1
+kokoro-onnx==0.6.1
+numpy==2.5.1
+onnxruntime==1.27.0
+openwakeword==0.6.0
+psutil==7.2.2
+pywebview==6.2.1
+scipy==1.18.1
+sounddevice==0.5.6

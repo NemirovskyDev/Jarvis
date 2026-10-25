@@ -1,0 +1,21 @@
+{
+  "notes": [
+    {"id": "voce", "area": "meta", "title": "Sobre mim", "body": "Escreva aqui quem você é: nome, idade, o que faz e onde mora. O Jarvis lê todas as notas antes de responder."},
+    {"id": "metas", "area": "metas", "title": "Metas", "body": "Curto prazo (3 a 6 meses): terminar o Projeto Alfa. Longo prazo (1 a 3 anos): defina aqui as suas metas."},
+    {"id": "carreira", "area": "trabalho", "title": "Carreira", "body": "Trabalho ou estudo atual, foco profissional e próximos passos."},
+    {"id": "projeto_alfa", "area": "projetos", "title": "Projeto Alfa", "body": "Exemplo de projeto em andamento: objetivo, prazo (AAAA-MM-DD) e próximos passos."},
+    {"id": "site_exemplo", "area": "projetos", "title": "Site Exemplo", "body": "Outro projeto de exemplo. Entrega prevista para 2030-01-31."},
+    {"id": "carteira", "area": "financas", "title": "Carteira", "body": "Objetivos e ativos que você acompanha. Não escreva valores nem dados de contas."},
+    {"id": "ia", "area": "aprendizado", "title": "IA", "body": "Tema de estudo de exemplo: o que você está aprendendo e o que quer aprender."},
+    {"id": "time_alfa", "area": "relacoes", "title": "Time Alfa", "body": "Pessoas do Projeto Alfa e o papel de cada uma (exemplo)."}
+  ],
+  "relations": [
+    ["metas", "voce"],
+    ["metas", "carreira"],
+    ["metas", "projeto_alfa"],
+    ["carreira", "site_exemplo"],
+    ["projeto_alfa", "time_alfa"],
+    ["ia", "carreira"],
+    ["carteira", "metas"]
+  ]
+}

@@ -1,0 +1,20 @@
+# Modelos de voz (cerca de 480 MB): baixados por `python setup_models.py`
+models/
+
+# Seus dados pessoais: copie os arquivos .example.json e edite
+config.json
+seed.json
+
+# Dados de execução (e-mails, agenda, uso do plano, log)
+feeds_cache.json
+jarvis.log
+notes.json
+secrets/
+
+# Guia pessoal do Obsidian (caminhos da sua máquina)
+GUIA_OBSIDIAN.md
+
+# Python
+__pycache__/
+*.pyc
+*.part
